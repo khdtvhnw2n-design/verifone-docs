@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8">
+  <title>P400 Installasjonsguide</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 20px; background: #f9f9f9; }
+    h2 { color: #2c3e50; }
+    section { margin-bottom: 30px; background: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 5px rgba(0,0,0,0.1); }
+  </style>
+</head>
+<body>
+
+  <h1>P400 Installasjonsguide</h1>
+
+  <section>
+    <h2>Installasjon</h2>
+    <p>Åpne lokket, sett inn kabel og sett på lokket igjen. Koble til strømkabel og nettverkskabel. Det tar ca. 5 sekunder før displayet lyser og opptil 1 minutt før programmet har startet. Pass på at du kobler nettverkskabelen til riktig nettverksuttak (merket ETH).</p>
+  </section>
+
+  <section>
+    <h2>Meny og navigasjon</h2>
+    <p>Terminalen har en berøringsskjerm, og alle menyvalgene kan utføres ved å trykke på skjermen. I enkelte menyer og lister må du kanskje bla (˄/˅) for å vise alle alternativer. All inntasting avsluttes med grønn tast.</p>
+    <p>For å få tilgang til terminalmenyen, trykk 4 og 6 samtidig. Terminalen vil be om et passord. Tast inn 1234 og bekreft med grønn tast.</p>
+  </section>
+
+  <section>
+    <h2>Oppsett av terminal</h2>
+    <p>Når du mottar terminalen må den settes opp på riktig kommunikasjon for at den skal få forbindelse og motta oppsett for ditt brukersted. Når terminalen er koblet til nettverket så vil parametere og brukeroppsett lastes ned automatisk. Det kan ta opptil 10 minutter før terminalen er operativ.</p>
+  </section>
+
+  <section>
+    <h2>Tilkobling via Ethernet</h2>
+    <ol>
+      <li>Trykk 4 + 6 og skriv inn passord 1234.</li>
+      <li>Velg Administrationsmeny → Settings → Communications → Configuration.</li>
+      <li>Velg Network Interface → Ethernet → DHCP → Nei.</li>
+      <li>Tast inn IP-adresse med 12 siffer (f.eks. 192.168.001.001).</li>
+      <li>Skriv inn nettverksmasken og gateway.</li>
+      <li>Velg Lagre og bekreft med OK.</li>
+      <li>Terminalen spør "Bruk grensesnittinnstillinger" → Trykk Ja.</li>
+      <li>Trykk på den røde tasten til du forlater menysystemet.</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Tilkobling via WLAN</h2>
+    <ol>
+      <li>Åpne terminalens meny.</li>
+      <li>Velg Administrationsmeny → Settings → Communications → Configuration.</li>
+      <li>Velg Network Interface → WiFi → WiFi Scan.</li>
+      <li>Velg nettverk → Legg til.</li>
+      <li>Sett Autostart til “Yes”.</li>
+      <li>Velg Pre-Shared Key (PSK), skriv inn passord og bekreft med grønn tast.</li>
+      <li>Velg “Save” → “OK”.</li>
+      <li>Velg “Yes” for Apply settings on interface → Interface started → OK → Rød tast for å avslutte.</li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>Konfigurasjon mot kasse</h2>
+    <ol>
+      <li>Trykk 4 + 6 og skriv inn passord 1234.</li>
+      <li>Velg Administrationsmeny → Settings → ECR → Set ECR Address.</li>
+      <li>Skriv inn kassens IP-adresse.</li>
+      <li>Velg Sett ECR Port og tast inn 9600.</li>
+      <li>Trykk på den røde tasten til du forlater menysystemet.</li>
+    </ol>
+    <p>Når terminalen har kontakt med kassen vises kun ”Verifone”. Terminalen er da klar til bruk.</p>
+  </section>
+
+</body>
+</html>
