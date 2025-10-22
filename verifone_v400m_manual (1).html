@@ -1,0 +1,543 @@
+<!DOCTYPE html>
+<html lang='no'>
+<head>
+<meta charset='UTF-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<title>Verifone V400m Brukerhåndbok</title>
+<style>body{font-family:system-ui,sans-serif;line-height:1.6;margin:1.5rem;color:#222}h1,h2{line-height:1.3}nav{position:sticky;top:0;background:#fff;border-bottom:1px solid #ccc;padding:.5rem;margin-bottom:1rem}nav a{margin-right:1rem;text-decoration:none;color:#0078d4}nav a:hover{text-decoration:underline}</style>
+</head>
+<body>
+<h1>Verifone V400m – HTML-versjon</h1>
+<p>Denne HTML-versjonen er generert fra PDF-manualen for bruk som kunnskapskilde i Copilot Studio.</p>
+<nav>
+<a href='#komme-i-gang'>Komme i gang</a>
+<a href='#sette-opp-terminal-p-4g'>Sette opp terminal på 4G</a>
+<a href='#sette-opp-terminal-p-wifi'>Sette opp terminal på WiFi</a>
+<a href='#sette-opp-terminal-p-bluetooth'>Sette opp terminal på Bluetooth</a>
+<a href='#parametere-og-oppsett'>Parametere og oppsett</a>
+<a href='#konfigurasjon-mot-kasse'>Konfigurasjon mot kasse</a>
+<a href='#menyer-og-funksjoner'>Menyer og funksjoner</a>
+<a href='#betaling'>Betaling</a>
+<a href='#feils-king'>Feilsøking</a>
+<a href='#rengj-ring-av-betalingsterminal'>Rengjøring av betalingsterminal</a>
+</nav>
+<p>support@verifone.no  I  Tlf. 23 24 74 00</p>
+<p>www.verifone.no</p>
+<p>V400M</p>
+<p>Brukerhåndbok</p>
+<p>3</p>
+<p>www.verifone.no</p>
+<p>Innhold</p>
+<h2 id='komme-i-gang-'>Komme i gang .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</h2>
+<p>4</p>
+<h2 id='sette-opp-terminal-p-4g-'>Sette opp terminal på 4G .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . .</h2>
+<p>5</p>
+<h2 id='sette-opp-terminal-p-wifi-'>Sette opp terminal på WiFi .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . .</h2>
+<p>5</p>
+<h2 id='sette-opp-terminal-p-bluetooth-'>Sette opp terminal på Bluetooth  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . .</h2>
+<p>6</p>
+<p>Symboler .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</p>
+<p>8</p>
+<p>Bokstaver og tegn .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</p>
+<p>8</p>
+<p>DID – Device ID  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</p>
+<p>8</p>
+<h2 id='parametere-og-oppsett-'>Parametere og oppsett .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . .</h2>
+<p>9</p>
+<h2 id='konfigurasjon-mot-kasse-om-dette-er-bestilt-'>Konfigurasjon mot kasse (Om dette er bestilt) .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . .</h2>
+<p>9</p>
+<p>VIM (Verifone Integration Module) .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . .</p>
+<p>10</p>
+<h2 id='menyer-og-funksjoner-'>Menyer og funksjoner .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</h2>
+<p>11</p>
+<h2 id='betaling-'>Betaling  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</h2>
+<p>15</p>
+<h2 id='feils-king-'>Feilsøking .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</h2>
+<p>17</p>
+<h2 id='feils-king-av-nettverk-'>Feilsøking av nettverk  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</h2>
+<p>17</p>
+<p>Informasjon om terminalens utgående IP adresser. .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . .</p>
+<p>18</p>
+<h2 id='rengj-ring-av-betalingsterminal-'>Rengjøring av betalingsterminal .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . . . . . . . . . . . . . . . . . . . . . . . .</h2>
+<p>18</p>
+<p>2</p>
+<p>www.verifone.no</p>
+<p>4</p>
+<p>5</p>
+<p>www.verifone.no</p>
+<h2 id='sette-opp-terminal-p-4g'>Sette opp terminal på 4G</h2>
+<p>For 4G-kommunikasjon gjør du følgende:</p>
+<p>Sett i SIM-kort. SIM kort må være klargjort, og være uten PIN-kode aktivert. For å plassere</p>
+<p>SIM kortet fjern batterilokk og batteri, og plasser SIM i nederste SIM-slot som vist under.</p>
+<p>Hvordan aktivere SIM på terminalen:</p>
+<p>1</p>
+<p>Gå inn i menyen, velg Administration > Settings > Communications > Mobile data</p>
+<p>2	 Velg Configuration > Mobile settings > APN</p>
+<p>3	 Tast inn «verifone.inc.cxn» og bekreft med OK</p>
+<p>4	 Velg «Save» og bekreft med OK</p>
+<p>5	 Velg «Yes» på spørsmålet »Apply settings on interface?«</p>
+<p>Etter en stund vises »Interface started« terminalen er da koblet til nettverket. Velg »OK«</p>
+<p>for å bekrefte, og trykk deretter på den røde knappen til du kommer ut av menysystemet.</p>
+<p>www.verifone.no</p>
+<h2 id='denne-brukerh-ndboken-gir-en-beskrivelse-av-alle-betalingsterminalens-funksjoner-her'>Denne brukerhåndboken gir en beskrivelse av alle betalingsterminalens funksjoner. Her</h2>
+<p>finner du også nyttige opplysninger om drift, vedlikehold og hvor du henvender deg ved</p>
+<p>feilsituasjoner.</p>
+<h2 id='komme-i-gang'>Komme i gang</h2>
+<p>Førstegangs oppsett av terminalen</p>
+<p>Før terminalen kan tas i bruk må den kobles til strøm og settes opp på ønsket kom­munikasjon.</p>
+<p>V400M Plus er en mobil terminal som kan settes opp med følgende forbindelser.</p>
+<p>– 4G (SIM)</p>
+<p>– WLAN</p>
+<p>– Bluetooth/ BT LAN (Krever tethering fra tilkoblet enhet)</p>
+<p>Koble til medfølgende strømadapter</p>
+<p>Terminalen kobles til strøm og batteriet må lades før bruk.</p>
+<p>Terminalen starter automatisk når strømmen er tilkoblet.</p>
+<p>Det tar ca. 5 sekunder før displayet lyser og opptil 1 minutt før programmet har startet.</p>
+<p>Slå på terminalen (uten strømadapter): Hold inn den grønne knappen i 3 sekunder.</p>
+<p>Slå av terminalen: Hold inn den røde tasten i 7 sekunder til terminalen slår seg av.</p>
+<p>Sett i SIM kort (Micro SIM) i den nederste</p>
+<p>holderen som vist på bildet (SIM plass 2)</p>
+<p>Sett inn batteriet og slå på</p>
+<h2 id='betalingsterminalen'>betalingsterminalen</h2>
+<p>Åpne luken bak og ta ut batteriet</p>
+<p>6</p>
+<p>7</p>
+<p>www.verifone.no</p>
+<p>www.verifone.no</p>
+<h2 id='sette-opp-terminal-p-bluetooth'>Sette opp terminal på Bluetooth</h2>
+<p>Slå på Bluetooth på den andre enheten (f.eks. en mobiltelefon) og gjør den synlig slik at</p>
+<p>terminalen kan finne den når den søker etter Bluetooth-enheter</p>
+<p>1</p>
+<p>Gå inn i menyen.</p>
+<p>2	 Velg Administrasjonsmeny > Settings > Communications, trykk på «Bluetooth».</p>
+<p>3	 Velg Configuration > Sarch. Terminalen vil nå se etter tilgjengelige BT enheter</p>
+<p>4	 Velg enheten du vil koble til. Velg »Yes« for spørsmålet »Pair with xxxx?«.</p>
+<p>5	 Bekreft PIN med «YES» og bekreft så med «OK».</p>
+<p>6	 Du kommer nå tilbake til «Configuration» menyen til Bluetooth, velg her «Configure</p>
+<p>devices» og velg enheten terminalen er koblet til, deretter velg «Activate» for å aktivere</p>
+<p>7</p>
+<p>Det vil nå stå «Active» under navnet på den andre Bluetooth-enheten i «Configure</p>
+<p>devices» lista.</p>
+<p>Nå har du paret terminalen mot en annen enhet og satt den som aktiv, som betyr at</p>
+<p>terminalen vil automatisk prøve å koble seg til akkurat denne, selv om det er flere</p>
+<p>Bluetooth-enheter den er paret mot.</p>
+<p>8	 Gå tilbake til hovedsida i «Communication» menyen og velg BT LAN</p>
+<p>9	 Trykk på «Start Network Interface» (dette vil feile om den andre Bluetooth-enheten</p>
+<p>ikke har tethering (også kalt internet sharing) aktivert)</p>
+<p>Bruksmønster</p>
+<p>Sende transaksjoner via internettforbindelsen til den andre Bluetooth-enheten:</p>
+<p>Om terminalen skal bruke internettforbindelsen til den andre enheten for å sende trans-</p>
+<p>aksjoner går man inn her: Menu > Administrasjonsmeny > Settings > Network fallback ></p>
+<p>Default > Bluetooth.</p>
+<p>Den andre Bluetooth-enheten er en kasse:</p>
+<p>Om den andre Bluetooth-enheten skal fungere som en kasse, må man først sette opp</p>
+<p>terminal som kasseintegrert i VHQ (POS Coupled).</p>
+<p>Når terminalen er satt opp som kasseintegrert går man inn her på terminalen: Menu ></p>
+<p>Administrasjonsmeny > Settings > ECR > Choose comm. Device > Bluetooth</p>
+<p>Deretter må man sette opp IP og port som den andre enheten har (f.eks. standard lokal</p>
+<p>IP adresse på Android mobiler er vanligvis 192.168.4.1).</p>
+<h2 id='sette-opp-terminal-p-wifi'>Sette opp terminal på WiFi</h2>
+<p>Søke frem WiFi automatisk</p>
+<p>1</p>
+<p>Åpne terminalens meny</p>
+<p>2	 Velg Administrasjonsmeny > Settings > Communications, trykk på »WiFi«.</p>
+<p>3	 Velg Configuration. For å få opp en liste over tilgjengelige trådløse nettverk, velger</p>
+<p>du »WiFi Scan«.</p>
+<p>4</p>
+<p>Terminalen viser en liste over trådløse nettverk i nærheten. Velg nettverket du vil koble til.</p>
+<p>5	 Terminalen viser informasjon om det valgte nettverket; velg »Add«.</p>
+<p>6	 Velg »Pre-Shared Key (PSK)«, og skriv inn passordet for nettverket. Bruk den grønne</p>
+<p>knappen når du er ferdig. Den gule knappen sletter det siste tegnet.</p>
+<p>7</p>
+<p>Velg »Save« og deretter »OK«.</p>
+<p>8	 Velg »Yes« for spørsmålet »Apply settings on interface?«. Etter en stund vises »Interface</p>
+<p>started« når terminalen er koblet til nettverket. Velg »OK« for å bekrefte, og trykk</p>
+<p>deretter på den røde knappen til du kommer ut av menysystemet.</p>
+<p>Legg til WiFi manuelt</p>
+<p>Ønsker du å legge til WiFi manuelt på din terminal følger du stegene under.</p>
+<p>OBS: Finn ut hvilken krypteringsform ditt nettverk bruker. Dette står ofte på baksiden av</p>
+<p>ruteren, sammen med passord. Eksempler på krypteringsformer er WPA og WPA2-PSK.</p>
+<p>Hvis du ikke finner ut av det selv, kan din nettverksleverandør hjelpe deg.</p>
+<p>1</p>
+<p>Gå inn i menyen.</p>
+<p>2	 Velg Administrasjonsmeny > Settings > Communications, trykk på «WiFi».</p>
+<p>3	 Velg Configuration, og trykk «New«.</p>
+<p>4	 Velg «SSID» og angi nettverkets navn. Avslutt med grønn knapp.</p>
+<p>5 	 Velg Authentication og Authentication igjen. Velg riktig krypteringsform for ditt</p>
+<p>nettverk.</p>
+<p>6	 Velg Pre-Shared-Key (PSK), oppgi passordet til nettverket, og avslutt med grønn knapp.</p>
+<p>7</p>
+<p>Trykk på rød knapp en gang.</p>
+<p>8	 Velg Save og bekreft med OK.</p>
+<p>9	 Velg «Yes» på spørsmålet «Apply settings on interface?»</p>
+<p>10	 Etter en stund vises «Interface started» når terminalen er oppkoblet til nettverket.</p>
+<p>11	 Bekreft med OK, trykk så på rød knapp til du kommer ut av menysystemet.</p>
+<p>Fjerne WiFi som ligger inne:</p>
+<p>Meny > Administration > Settings > Communication > WiFi > Configuration</p>
+<p>Velg det nettverket du skal fjerne, og trykk Remove network og bekreft med »Yes«.</p>
+<p>8</p>
+<p>9</p>
+<p>www.verifone.no</p>
+<p>www.verifone.no</p>
+<p>nummer og terminalen har lastet opp sine parametere.  Skulle du derimot oppleve at din</p>
+<p>nye terminal ber om DID ved oppstart, må du tastet det nummeret du har mottatt på epost</p>
+<p>fra oss.  Når du har tastet korrekt DID, vil terminalen begynne å laste opp sin konfigurasjon.</p>
+<p>Det kan ta inntil 10 minutter før terminalen er ferdig med å laste oppsettet. Verifone-</p>
+<p>logoen vil vises i skjermen når terminalen er klar til bruk.</p>
+<p>Skulle meldingen «Configuration missing« dukker opp i skjermen på</p>
+<p>terminalen, da trenger den å laste ned konfigurasjon. Om dette ikke skjer</p>
+<p>i løpet av 10 minutter kan det være at en feil har oppstått, og vi ber deg</p>
+<p>kontakte vår support, som vil hjelpe deg videre.</p>
+<h2 id='parametere-og-oppsett'>Parametere og oppsett</h2>
+<p>Når du mottar terminalen skal den i utgangspunktet være satt opp etter din spesifikasjon.</p>
+<p>Ta kontakt med din leverandør om du ønsker å endre på konfigurasjonen slik at terminalen</p>
+<p>passer ditt behov.</p>
+<h2 id='konfigurasjon-mot-kasse'>Konfigurasjon mot kasse</h2>
+<p>For å kunne koble til kasseapparatet, må terminalen konfigureres med kasseapparatets</p>
+<p>IP-adresse:</p>
+<p>1 	 Trykk 4 + 6 og skriv inn passord 1234.</p>
+<p>2 	 Velg Administrationsmeny > Settings > ECR > Set ECR Address.</p>
+<p>3	 Skriv inn kassens IP-adresse, trykk på gul-tasten for å slette siste</p>
+<p>tegn, trykk  for punkt. Fullfør med grønn tast.</p>
+<p>4	 Velg Sett ECR Port og tast inn 9600. Fullfør med grønn tast.</p>
+<p>5	 Velg Choose comm. device og velg kommunikasjonsforbindelse</p>
+<p>mot kasse.</p>
+<p>6	 Trykk på den røde tasten til du kommer ut av menysystemet.</p>
+<p>NB: Valg av kommunikasjonsforbindelse mot kassen må være den forbindelsen både</p>
+<p>kasse og terminal kommuniserer med.</p>
+<p>Når terminalen har kontakt med kassen vises kun »Verifone«. Terminalen er da klar til bruk.</p>
+<p>Symboler</p>
+<p>Viser at terminalen er koblet til mobilnett (2G eller 4G) og signalstyrken.</p>
+<p>Viser at terminalen er koblet til et WiFi-nettverk og signalstyrken.</p>
+<p>Viser at terminalen har nøkkel-sertifikater. Hvis symbolet ikke vises på skjermen,</p>
+<p>kan ikke terminalen utføre transaksjoner. Ta i så fall kontakt med Verifone support.</p>
+<p>Batterinivå og lade-indikator.</p>
+<p>Bokstaver og tegn</p>
+<p>Når man skal legge inn passord/informasjon i terminalen gjør man dette ved å bruke</p>
+<p>tastaturet på terminalen. For å endre til tall/små/store bokstaver trykker man flere ganger</p>
+<p>på valgt tast til du får ønsket bokstav/størrelse/tall.</p>
+<p>1</p>
+<p>Q Z . q z</p>
+<p>2</p>
+<p>A B C a b c</p>
+<p>3</p>
+<p>D E F d e f</p>
+<p>4</p>
+<p>G H I g h i</p>
+<p>5</p>
+<p>J K L j k l</p>
+<p>6</p>
+<p>M N O m n o</p>
+<p>7</p>
+<p>P R S p r s</p>
+<p>8</p>
+<p>T U V t u v</p>
+<p>9</p>
+<p>W X Y w x y</p>
+<p>*</p>
+<p>,’ »</p>
+<p>0</p>
+<p>- mellomrom +</p>
+<p>#</p>
+<p>! : ; @ = & / \ % $ ( ) ^ _</p>
+<p>Eksempel: Trykker du en gang på knappen 2 blir det 2. Trykker du 2 ganger på 2 får du A, trykker</p>
+<p>du 3 ganger får du B osv.</p>
+<p>DID – Device ID</p>
+<p>Alle nye terminaler skal ha en DID (Device ID), dette er ett nummer (12 siffer) for å kunne</p>
+<p>identifisere terminalen og ved oppsett av erstatningsterminal vil erstatningsterminalen</p>
+<p>arve oppsettet til den opprinnelige terminalen.</p>
+<p>Hvis din nye terminal ber om DID</p>
+<p>De aller fleste terminaler som blir sendt ut fra Verifone vil allerede være satt opp med ett DID</p>
+<p>10</p>
+<p>11</p>
+<p>www.verifone.no</p>
+<p>www.verifone.no</p>
+<h2 id='menyer-og-funksjoner'>Menyer og funksjoner</h2>
+<p>Terminalen har berøringsskjerm, og alle menyvalgene kan utføres</p>
+<p>ved å trykke på skjermen. I enkelte menyer og lister må du kanskje</p>
+<p>bla (^/^) for å vise alle alternativer. All inntasting bekreftes med</p>
+<p>grønn tast.</p>
+<p>For å få tilgang til terminalmenyen, trykk 4 og 6 samtidig. Terminalen</p>
+<p>vil be om et passord. Tast inn 1234 og bekreft med grønn tast.</p>
+<p>VIM (Verifone Integration Module)</p>
+<p>VIM (Verifone Integration Module) er Verifone sitt integrasjonsbibliotek som fungerer som</p>
+<p>et interface mot terminaler med VEPP-software (Verifone European Payment Platform).</p>
+<p>VIM kommer per i dag i form av Java, .Net og Swift for Apple.</p>
+<p>Så lenge man benytter VIM, krever ikke Verifone noen form for sertifisering av</p>
+<p>kasseløsningen. VIM er PCI- sertifisert sammen med terminalsoftwaren, og ingen sensitiv</p>
+<p>data går mellom terminal og kasse. Mellom terminal og host er kommunikasjonen ende</p>
+<p>til ende kryptert. I VIM er dessuten kvitteringer ferdig formattert med korrekt innhold, slik</p>
+<p>at integratører ikke trenger å tenke på å samle transaksjonsdataene som er påkrevd å ha</p>
+<p>med på en gyldig kvittering.</p>
+<p>VIM benytter kommunikasjon over IP.</p>
+<p>VIM støtter alle obligatoriske funksjoner definert av Nets:</p>
+<p>– Kjøp med bankkort/kredittkort</p>
+<p>– Kjøp med kontantuttak (for bankkort med PIN-tasting)</p>
+<p>– Annulering av siste transaksjon (makulering)</p>
+<p>– Avstemming tillegg støtter den også:</p>
+<p>– Kopi av siste transaksjon</p>
+<p>– Kopi av siste avstemming</p>
+<p>– Test mot Nets</p>
+<p>– Retur</p>
+<p>– X-rapport</p>
+<p>– Z rapport</p>
+<p>– Send Offline</p>
+<p>12</p>
+<p>13</p>
+<p>www.verifone.no</p>
+<p>www.verifone.no</p>
+<p>Administrasjonsmeny</p>
+<p>I denne menyen finner man utgangspunktet for endringer eller tester som kan gjøres</p>
+<p>på terminalen. Selv om de fleste endringer må utføres via Support kan du fortsatt gjøre</p>
+<p>noen endringer og tester direkte på terminalen.</p>
+<p>(1) Settings</p>
+<p>Under settings kan man gjøre forskjellige konfigurasjoner på terminalen. Her setter man opp</p>
+<p>måten terminalen skal kommunisere med nettverket på eller oppsett av tips. Merk at de fleste</p>
+<p>innstillinger på terminalen utenom nettverksoppsett vil bli utført ved kontakt med Verifone.</p>
+<p>(1) Communications</p>
+<p>Brukes til å endre kommunikasjonsinnstillingene på terminalen.</p>
+<p>Når du går inn på Communications-menyen får du opp en oversikt over alle</p>
+<p>kommunikasjonstypene terminalen kan ha.  Trykk på den kommunikasjonstypen du</p>
+<p>vil endre på for å starte konfigurasjonen. Ønsker du å se hvordan konfigurasjonen skal</p>
+<p>gjøres se installasjons veiledningen.</p>
+<p>(2) Network fallback</p>
+<p>Her velger man primær / sekundær tilkobling på terminalen.</p>
+<p>(3) Application logs</p>
+<p>Innstillinger relatert til terminalens interne logging. (Bør kun endres i samråd med Verifone)</p>
+<p>(4) Performance logs</p>
+<p>Skru på økt loggingsfunksjonalitet (Gjøres kun i samråd med Verifone support)</p>
+<p>(5) ECR</p>
+<p>Her setter man kassetilkoblings-IP/Port, samt hvordan terminalen skal kommunisere</p>
+<p>med kasse. OBS! Gjelder kun terminal som skal kobles til kasse.</p>
+<p>(6) Power management</p>
+<p>Her velger man innstillingene for hvor mye strøm terminalen skal bruke via endringer som</p>
+<p>lysstyrke og dvalemodus.</p>
+<p>(7) Amount entry</p>
+<p>Om man skal ta i bruk desimaler eller ikke ved inntasting av sum.</p>
+<p>(8) Tip configuration</p>
+<p>Ta kontakt med Verifone kundeservice.</p>
+<p>(2) Run Tests</p>
+<p>I denne menyen kan du kjøre tester for å se om funksjonaliteten til terminalen er OK.</p>
+<p>(1) Network test</p>
+<p>Sjekker forbindelsen til host.</p>
+<p>Hovedmeny</p>
+<p>Oppgjørsmeny</p>
+<p>Administrasjonsmeny</p>
+<p>Transaksjonsinfo</p>
+<p>Terminal Info</p>
+<p>Kvitteringsdata</p>
+<p>Transaksjoner (kun for frittstående terminaler)</p>
+<p>I denne menyen kan du gjøre kjøp, salg og uttak.</p>
+<p>Trenger du å gjøre retur av vare, annullering eller bruk/lasting av gavekort gjøres dette</p>
+<p>også i denne menyen.</p>
+<p>(1) Varekjøp</p>
+<p>Her gjøres vanlig varekjøp. Tast inn sum og grønn knapp (ok) før kunde setter inn/tæpper kort.</p>
+<p>(2) Kjøp + kontant</p>
+<p>Her kan du gjøre varekjøp og kontantuttak.</p>
+<p>(3) Vareretur</p>
+<p>Dette valget benyttes for å gjøre retur av valgt sum.</p>
+<p>(4) Annullering</p>
+<p>For å annullere det siste salget som er gjort.</p>
+<p>(5) Gavekort</p>
+<p>Under gavekortmenyen kan du enten gjøre et innskudd til gavekortet eller undersøke saldo.</p>
+<p>(1) Saldo – Viser saldo på gavekortet</p>
+<p>(2) Innskudd – For å sette inn penger på et gavekort</p>
+<p>Oppgjørsmeny</p>
+<p>I denne menyen har du muligheten til å ta det daglige oppgjøret og få ut alle nødvendige</p>
+<p>rapporter for å holde oversikt over omsetning for enkeltbrukere og alle brukere totalt.</p>
+<p>Hvis terminalen ikke har printer, kan kvitteringer og utskrifter lagres på terminalen til de</p>
+<p>kan bli skrevet ut på kassen (ECR) senere.</p>
+<p>(1) Avstemming</p>
+<p>Denne funksjonen avstemmer alle terminalene som er på en BAX. Den bør utføres en</p>
+<p>gang daglig for at brukerstedet skal få penger inn på sin konto. Akkumulerte beløp for</p>
+<p>de ulike korttypene presenteres i en rapport. Ved første godkjente transaksjon etter en</p>
+<p>avstemming vil omsetningstellerne nullstilles.</p>
+<p>(2) X-rapport Viser omsetning siden forrige Z-rapport. Nullstiller ikke.</p>
+<p>(3) Z-rapport Viser omsetning siden forrige Z-rapport. Nullstiller Z-rapportens totaler.</p>
+<p>14</p>
+<p>15</p>
+<p>www.verifone.no</p>
+<p>www.verifone.no</p>
+<p>Transaksjonsinfo</p>
+<p>Under transaksjonsinfo kan man få informasjon om det henger transaksjoner igjen på</p>
+<p>terminalen. Om det henger transaksjoner på terminalen vil ikke terminalen kunne koble</p>
+<p>seg mot VHQ eller kjøre en transaksjon.</p>
+<p>(1) Pågående transaksjoner</p>
+<p>Er det noen transaksjoner som henger på terminalen vises de her, og de kan slettes fra</p>
+<p>terminalen så den får koblet seg mot VHQ/kjørt transaksjoner.</p>
+<p>(2) Lagret transaksjonsinfo</p>
+<p>Er det noen transaksjoner som henger på terminalen vises de her</p>
+<p>Terminal info</p>
+<p>(1) Accepted payment methods</p>
+<p>Hvilke kort som kan benyttes på terminalen, ikke hva som er aktivert i kortavtalen.</p>
+<p>(2) ECR status</p>
+<p>Viser om terminalen er koblet mot kasse</p>
+<p>(3) Version information</p>
+<p>(1) Software – Hvilken softwareversjon og når ble denne aktivert</p>
+<p>(2) Hardware – HW type/serienummer</p>
+<p>(3) ADK components – Komponent versjon</p>
+<p>(4) Battery status – Viser status på batteriet, om det er ok. Volt/kapasitet vises også</p>
+<p>under denne menyen.</p>
+<p>Kvitteringsdata</p>
+<p>I menyen kvitteringsdata, kan du se den siste kvitteringen og gjøre en utskrift av denne.</p>
+<h2 id='betaling'>Betaling</h2>
+<p>Alle våre terminaler kan lese både chip-kort og kontaktløse kort, smartklokker og</p>
+<p>telefoner som bruker NFC-teknologi.</p>
+<h2 id='prioritert-kort-applikasjon-betalingsvalg-'>Prioritert kort applikasjon (Betalingsvalg)</h2>
+<p>Som følge av et nytt EU-direktiv er det mulig for kunden å selv velge prioritert kort­</p>
+<h2 id='applikasjon-p-oppdaterte-betalingsterminaler-brukerstedet-kan-sette-egen-prioritering-i'>applikasjon på oppdaterte betalingsterminaler. Brukerstedet kan sette egen prioritering i</h2>
+<h2 id='terminalmenyen-det-er-ogs-mulig-for-kunde-velge-ved-kj-p-ved-trykke-betalingsvalg-'>terminalmenyen. Det er også mulig for kunde å velge ved kjøp ved å trykke «Betalingsvalg»</h2>
+<p>eller trykke Corr (gul tast). Terminalen vil da vise en liste der kunde kan velge foretrukket</p>
+<h2 id='betalingsm-te-funksjonaliteten-m-aktiveres-f-r-den-kan-tas-i-bruk-ta-kontakt-med-verifone'>betalingsmåte. Funksjonaliteten må aktiveres før den kan tas i bruk. Ta kontakt med Verifone</h2>
+<p>Support for mer informasjon og aktivering.</p>
+<p>(2) Keyboard test</p>
+<p>Undersøker om tastene er ok.</p>
+<p>(3) Full Test</p>
+<p>Tester tastatur og nettverk.</p>
+<p>(3) Software center</p>
+<p>Under software center kan du velge å laste nye SSL-filer, eller tvinge gjennom en kontakt</p>
+<p>med VHQ for å oppdatere terminalen. Det går kun å oppdatere terminalen om det ligger</p>
+<p>en klargjort fil til terminalen.</p>
+<p>(1) Load certificates</p>
+<p>Laster SSL-filer til terminalen</p>
+<p>(2) Update terminal</p>
+<p>Kontakter VHQ for lasting av parameter/oppdateringer</p>
+<p>(4) Restart terminal</p>
+<p>Dette lar deg ta en omstart av terminalen.</p>
+<p>Vi anbefaler å kjøre en omstart på terminaler dersom terminalen ikke fungerer som den</p>
+<p>skal. Det er ingen risiko ved å ta en omstart av terminalen på denne måten.</p>
+<p>(5) Parameter list</p>
+<p>(1) Communication</p>
+<p>Informasjon om terminalenes kommunikasjonsparametere</p>
+<p>(2) Integration</p>
+<p>Er terminalen koblet til kasse/Print ‘N Og</p>
+<p>(3) Merchant details</p>
+<p>Informasjon om brukersted</p>
+<p>(4) Aquirer information</p>
+<p>Informasjon om BAX/terminal-ID</p>
+<p>(5) Card/Issuer details</p>
+<p>Kortavtale informasjon</p>
+<p>(6) Software info</p>
+<p>Softwareversjon og serienummer</p>
+<p>(7) General/user settings</p>
+<p>Terminal parameterliste fra VHQ</p>
+<p>(8) Transaction Details</p>
+<p>Informasjon om transaksjoner</p>
+<p>(9) VAS details</p>
+<p>Informasjon om oppsett for verdiøkende tjenester.</p>
+<p>16</p>
+<p>17</p>
+<p>www.verifone.no</p>
+<p>www.verifone.no</p>
+<p>Gavekort</p>
+<h2 id='en-betalingsterminal-som-skal-benyttes-til-betaling-med-gavekort-m-v-re-innmeldt-hos'>En betalingsterminal som skal benyttes til betaling med gavekort, må være innmeldt hos</h2>
+<p>Nets med den aktuelle gavekorttypen med korttjenestene »Varekjøp« og »Disponibelt</p>
+<p>beløp« (saldo). Ved bruk av gavekort til varekjøp, bruk vanlig prosedyre for varekjøp.</p>
+<p>Opplading av gavekort</p>
+<h2 id='en-betalingsterminal-som-skal-benyttes-til-lade-opp-et-gavekort-med-et-bel-p-m-v-re'>En betalingsterminal som skal benyttes til å lade opp et gavekort med et beløp, må være</h2>
+<p>innmeldt hos Nets med den aktuelle gavekorttypen med korttjenesten »Innskudd«.</p>
+<p>Velg »Innskudd« i meny for korttjenester. Tast inn ønsket beløp som gavekortet skal</p>
+<p>lastes med og trykk OK. Dra gavekortet. Bekreft med OK. Ved vellykket opplading vises</p>
+<p>teksten »GODKJENT« på skjermen.</p>
+<p>Disponibelt beløp</p>
+<p>Kunden kan be om å få vite gjenværende beløp på gavekortet sitt. Velg «Disp beløp»</p>
+<p>i menyen for korttjenester. Be kunde dra gavekort. Beløpet vises på skjermen i 10</p>
+<p>sekunder. For integrerte terminaler er det mulig å dra kortet og deretter trykke F3 eller</p>
+<p>«Disp beløp» for å få opp disponibelt beløp.</p>
+<h2 id='feils-king'>Feilsøking</h2>
+<p>Her finner noen steg som vi anbefaler deg å gjøre før du kontakter vår support.</p>
+<p>Restarte terminalen</p>
+<p>Dersom terminalen ikke fungerer som den skal, er det første du bør gjøre å restarte den.</p>
+<p>Alternativ 1: Meny > Administrasjon > Restart Terminal</p>
+<p>Alternativ 2: Hold inn rød knapp i ca 7 sekunder > Vent på Power Panel-meny > Velg</p>
+<p>»Reboot«</p>
+<p>Alternativ 3: Dra ut strømkabelen og vent 10-15 sek. > Sett inn strømkabelen igjen og vent</p>
+<p>på oppstart.</p>
+<h2 id='feils-king-av-nettverk'>Feilsøking av nettverk</h2>
+<p>Kontroller status på nettverkstilkoblingen i menyen</p>
+<p>1</p>
+<p>Gå inn i terminalens meny</p>
+<p>2	 Velg Administration > Settings > Communications.</p>
+<p>3	 Kontroller at statusen til den valgte nettverkstilkoblingen står til »Up«.</p>
+<p>Kvitteringstekst</p>
+<h2 id='teksten-godkjent-betaling-ikke-kvittering-for-kj-p-vises-p-kvitteringen-til'>Teksten «GODKJENT BETALING - IKKE KVITTERING FOR KJØP» vises på kvitteringen til</h2>
+<h2 id='frittst-ende-terminaler-dette-er-for-vise-at-betalingstransaksjonen-er-godkjent-men-at'>frittstående terminaler. Dette er for å vise at betalingstransaksjonen er godkjent, men at</h2>
+<p>dette ikke er en kvittering på et kassekjøp.</p>
+<p>Reserveløsning</p>
+<p>Reserveløsning inntreffer dersom det er feil på kommunikasjon ved innsending av</p>
+<p>en transaksjon av type varekjøp. Det er fortrinnsvis norske bankkort som benytter</p>
+<p>denne løsningen. Reserveløsning gjøres automatisk. Ved reserveløsning godkjennes</p>
+<p>transaksjonen lokalt og lagres midlertidig i terminalen. Kortholder må signere på gjenpart</p>
+<p>av kvittering og operatør må sjekke signatur og påføre kontrollnummer.</p>
+<p>OBS: Det vil fram til Juni 2026 være to løsninger for reserveløsning avhengig av hvor</p>
+<p>nytt/gammelt kort kunden benytter.</p>
+<p>Dersom kunden har et nyere kort vil beløp under 2.500,- godkjennes offline med PIN</p>
+<p>uten krav om signatur.</p>
+<p>Beløp over 2.500,- på BankAxept må autoriseres manuelt hos Nets (tel. 24 17 43 91).</p>
+<p>Når kommunikasjonen er i orden igjen, vil de lagrede transaksjonene sendes inn.</p>
+<p>I tilfeller der elektronisk innsending av reserveløsning feiler kan kvittering sendes</p>
+<p>inn for å manuelt registrere transaksjonen. Det kan derfor være nyttig å ta vare på</p>
+<p>reserveløsningskvitteringer.</p>
+<p>Det er ikke lov å dele opp beløp for å unngå transaksjonsgrensene. Reserveløsning</p>
+<p>tillates kun for beløp under 10 000 kroner. Under rapportmenyen ligger et valg for</p>
+<p>»Lagrede info«. Her ligger informasjon om lagrede reserveløsninger.</p>
+<p>Manuell autorisasjon</p>
+<p>For store beløp kan kortselskapet kreve at det må gjøres manuell autorisasjon.</p>
+<p>Transaksjonen vil i første omgang bli avvist og det kommer en utskrift med meldingen:</p>
+<p>«Kontakt innløser for manuell autorisasjon». Operatør må ringe til innløser for å få</p>
+<p>autorisasjonskode. Noter autorisasjonsnummeret, det skal tastes inn på terminalen.</p>
+<p>Gjenta transaksjonen på nytt. Når samme kort, transaksjonstype og beløp blir valgt</p>
+<p>igjen, vil teksten »Manuell autorisasjon?« vises på skjermen. Operatør taster OK og taster</p>
+<p>deretter inn autorisasjonskoden som er mottatt fra innløser. Transaksjonen fullføres</p>
+<p>offline og sendes inn sammen med neste transaksjon.</p>
+<p>18</p>
+<p>19</p>
+<p>www.verifone.no</p>
+<p>www.verifone.no</p>
+<p>•</p>
+<p>Vær forsiktig ved rengjøring av skjermen, den bør ikke presses hardt på eller skrubbes</p>
+<p>ved rengjøring.</p>
+<p>•</p>
+<h2 id='unng-hardhendt-h-ndtering-av-betalingsterminalen-n-r-den-rengj-res-'>Unngå hardhendt håndtering av betalingsterminalen når den rengjøres.</h2>
+<p>Sikkerhetsmekanismen kan utløses, og terminalen vil da låse seg (tamper state).</p>
+<p>Rengjøring av chipkortleser</p>
+<p>Chipleseren er ofte utsatt for slitasje, særlig på grunn av smuss som følger med kortet</p>
+<p>inn i leseren. Vi anbefaler at du jevnlig renser chipleseren med et rensekort. Disse kan</p>
+<p>bestilles hos Verifone.</p>
+<p>Om tilkoblingen står til »Down«, alternativ står til »Up« men feilen vedvarer:</p>
+<p>1</p>
+<p>Scroll ned på skjermen og velg »More«</p>
+<p>2	 Velg »Diagnostic«.</p>
+<p>3	 Velg »Repair« og den tilkoblingen du vil gjennoprette.</p>
+<p>4	 Etter en liten stund vises »Success«. Velg »OK« for å bekrefte, trykk så på rød knapp</p>
+<p>til du kommer ut av menyen.</p>
+<p>Gjennomfør deretter en nettverkstest:</p>
+<p>1</p>
+<p>Meny > Administration > Run Tests > Network test</p>
+<p>Dersom dette ikke fungerer, kan du feilsøke ved å gå gjennom stegene under Kom­</p>
+<p>munikasjon på side 4 og bekrefte at port 443 er åpen i ditt nettverk. Hvis terminalen</p>
+<p>er koblet til WiFi, prøv å fjerne nettverket, og legge det til på nytt, se side 5 under</p>
+<p>Kommunikasjon.</p>
+<p>Informasjon om terminalens utgående IP adresser</p>
+<p>Terminalen kommuniserer med flere systemer for å fungere, bli operative og utføre</p>
+<p>trans­aksjoner.</p>
+<p>Påse at det er åpent for all trafikk gjennom port 443 i deres nettverk.</p>
+<p>IP adressene kan være forskjellig avhengig av ditt oppsett, trenger du komplett info om</p>
+<p>IP adressene på din terminal, vennligst ta kontakt med support.</p>
+<h2 id='rengj-ring-av-betalingsterminal'>Rengjøring av betalingsterminal</h2>
+<h2 id='det-er-viktig-understreke-at-betalingsterminalen-ikke-t-ler-v-ske-en-veldig-v-t-klut'>Det er viktig å understreke at betalingsterminalen ikke tåler væske, en veldig våt klut</h2>
+<p>kan skade elektronikken i terminalen. Bruk derfor en lett fuktig mikrofiberklut med mildt</p>
+<p>rengjøringsmiddel.</p>
+<p>Etter rengjøring kan terminalen desinfiseres med teknisk sprit etter Antibac. Spray dette på en</p>
+<p>klut, som du deretter bruker til å tørke av terminalen, ikke spray væske direkte på terminalen.</p>
+<p>VIKTIG</p>
+<p>•</p>
+<p>Bruk aldri blekemiddel, tynner, trichlorethylen eller ketonbaserte løsemidler, dette</p>
+<p>kan ødelegge plast- og gummideler.</p>
+<h2 id='feils-king-og-support'>Feilsøking og support</h2>
+<p>På www.verifone.no finner du svar på de vanligste spørsmålene om terminaler, og</p>
+<p>aktuell driftsinformasjon. Hvis du ikke finner svar på dine spørsmål, kan du kontakte oss</p>
+<p>på e-post support@verifone.no eller telefon 23 24 74 00</p>
+<p>www.verifone.no</p>
+<p>© Verifone – Rev. oktober 23</p>
+</body></html>
